@@ -4,7 +4,8 @@
     --oscuro: #000;
     --primario: #ffc107;
     --secundario: #0097a7;
-    --gris: #757575;    
+    --gris: #757575; 
+    --grisClaro:#dfe9f3;   
 }
 /* Globales */
 html{
@@ -17,6 +18,7 @@ html{
 body{
     font-size: 16px;/* 1 rem = a 10px */ 
     font-family: 'Krub', sans-serif;
+    background-image: linear-gradient(to top,var(--grisClaro)  0%, var(--blanco)100%);
 }
 
 .contenedor{
@@ -35,11 +37,24 @@ body{
     border-radius: .5rem;
     width: 90%;
     text-align: center;
+    border: none;
 }
 @media (min-width:480px ) {
     .boton{
         width: auto;
     }
+}
+.boton:hover{
+    cursor: pointer;
+}
+.sombra{
+    -webkit-box-shadow: 0px 5px 15px 0px rgba(112,112,112,0.54);
+    -moz-box-shadow: 0px 5px 15px 0px rgba(112,112,112,0.54);
+    box-shadow: 0px 5px 15px 0px rgba(112,112,112,0.54);
+    background-color: var(--blanco);
+    padding: 2rem;
+    border-radius: 1rem;
+    
 }
 /* Tipografia */
 h1{
@@ -58,6 +73,21 @@ h1, h2,h3{
 /* Titulos */
 .titulo span{
     font-size: 2rem;
+}
+/*Utilidades*/
+.w-sm-100{
+    width: 100%;
+}
+@media (min-width:768px ) {
+    .w-sm-100{
+        width: auto;
+    }
+}
+.flex{
+    display: flex;
+}
+.alinear-derecha{
+    justify-content: flex-end;
 }
 /* Navegacion Principal  */
 .nav-bg{
@@ -95,6 +125,7 @@ h1, h2,h3{
     background-size: cover;/*Ocupar todo el espacio que tiene disponible la imagen*/
     height: 45rem;
     position: relative;
+    margin-bottom: 2rem;
 }
 .contenido-hero{
     position: absolute;
@@ -114,6 +145,79 @@ h1, h2,h3{
 .contenido-hero h2,
 .contenido-hero p{
     color: var(--blanco);
+}
+/*Sericios*/
+@media (min-width: 768px) {
+    .servicios{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);/*1fr =33.3%*/
+        column-gap: 1rem;
+    }
+}
+.servicio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.servicio h3{
+    color: var(--secundario);
+    font-weight: normal;
+
+}
+.servicio p{
+    line-height: 2;
+    text-align: center;
+}
+.servicio .iconos{
+    height: 15rem;
+    width: 15rem;
+    background-color: var(--primario);
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+/*Contacto*/
+.formulario{
+    background-color: var(--gris);
+    width: min(60rem, 100%);/*Utilizar el valor mas pequeño*/
+    margin: 0 auto;/*Centrar */
+    padding: 2rem;
+    border-radius: 2rem;
+    
+}
+.formulario fieldset{
+    border: none;
+}
+.formulario legend{
+    color: var(--primario);
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.contenedor-campos{
+
+}
+.campo{
+    margin-bottom: 1rem;
+}
+.campo label{
+    color: var(--blanco);
+    font-weight: bold;
+    margin-bottom: .5rem;
+    display: block;
+
+}
+
+.input-text{
+    width: 100%;
+    border: none;
+    padding: 1.5rem;
+    border-radius: .5rem;
 }
 
 
