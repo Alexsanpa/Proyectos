@@ -1,11 +1,12 @@
 # Proyectos
-En este readme indico los proyectos que voy realizando a lo largo de las semanas, mostrando una frecuencia diaria a mi repositorio, ademas de eso, encontraran los ejercicios que realizo a diario en Hacker-rank, ejercicios de practica que realiza en su mayoria con python.
+En este readme indico los proyectos que voy realizando a lo largo de las semanas, mostrando una frecuencia, y adjunto mis skill, actualmente me encuentro buscando trabajo como desarrollador, aplico a practicas nivel tecnico, semilleros, de desarrollo backend, mi lenguaje predominante es Python, se programacion POO, comprehension
 
     DESCRIPION DE PROYECTOS
     -Proyecto01:
-        Encontraras el uso de html y cssgrid, felxbox
+        Encontraras el uso de html y cssgrid, felxbox, pagina estatica
+        
     -Proyecto02:
-        Tienda de Ecomerce Basica en proceso
+        Tienda de Ecomerce estatica en proceso
 
     Skills:
             -Python: Medio
@@ -25,7 +26,7 @@ En este readme indico los proyectos que voy realizando a lo largo de las semanas
             -Flexibilidad
     
     Estudios:
-            -Estudiante de Ingenierai de sistemas 10 Semestre y Disponible para reazalizar practicas Tencias en Desarrolo de software 
+            -Ingeniero 10° Semestre
 
     Social Media:
             -https://www.linkedin.com/in/alexander-sanchez-bacckend028/
