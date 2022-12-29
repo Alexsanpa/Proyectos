@@ -1,5 +1,5 @@
 # Proyectos
-En este readme indico los proyectos que voy realizando a lo largo de las semanas, mostrando una frecuencia, y adjunto mis skill, actualmente me encuentro buscando trabajo como desarrollador, aplico a practicas nivel tecnico, semilleros, de desarrollo backend, mi lenguaje predominante es Python, se programacion POO, comprehension
+En este readme indico los proyectos que voy realizando a lo largo de las semanas, mostrando una frecuencia y adjunto mis skills, actualmente me encuentro buscando trabajo como desarrollador, aplico a practicas nivel tecnico, semilleros, de desarrollo backend, mi lenguaje predominante es Python, se programacion POO, comprehension
 
     DESCRIPION DE PROYECTOS
     -Proyecto01:
@@ -7,6 +7,9 @@ En este readme indico los proyectos que voy realizando a lo largo de las semanas
         
     -Proyecto02:
         Tienda de Ecomerce estatica en proceso
+        
+    -Proyecto03
+        Blog de caffe
 
     Skills:
             -Python: Medio
